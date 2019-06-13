@@ -1,0 +1,29 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘9.0’
+use_frameworks!
+
+target ‘CohesiveU’ do
+  pod 'JSQMessagesViewController'
+  pod 'IDMPhotoBrowser' 
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database’
+  pod 'Firebase/Auth'
+  pod 'MMDrawerController' 
+  pod 'Alamofire', '~> 4.0'
+  pod 'AlamofireImage'
+  pod 'SwiftyJSON'
+  pod 'Batch', '~> 1.6'
+end
+
+target 'CohesiveUTests' do
+  pod 'JSQMessagesViewController'
+  pod 'IDMPhotoBrowser' 
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database’
+  pod 'Firebase/Auth'
+  pod 'MMDrawerController' 
+  pod 'Alamofire', '~> 4.0'
+  pod 'AlamofireImage'
+  pod 'SwiftyJSON'
+  pod 'Batch', '~> 1.6'
+end

@@ -1,0 +1,6 @@
+framework module Pods_CohesiveU {
+  umbrella header "Pods-CohesiveU-umbrella.h"
+
+  export *
+  module * { export * }
+}
